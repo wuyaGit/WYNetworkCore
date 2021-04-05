@@ -1,0 +1,49 @@
+PODS:
+  - Alamofire (5.4.2)
+  - ModelProtocol (0.1.0):
+    - SwiftyJSON (~> 4.2.0)
+  - Result (5.0.0)
+  - RxCocoa (6.1.0):
+    - RxRelay (= 6.1.0)
+    - RxSwift (= 6.1.0)
+  - RxRelay (6.1.0):
+    - RxSwift (= 6.1.0)
+  - RxSwift (6.1.0)
+  - SwiftyJSON (4.2.0)
+  - WYNetworkCore (0.0.1):
+    - Alamofire
+    - ModelProtocol
+    - Result
+    - RxCocoa
+    - RxSwift
+
+DEPENDENCIES:
+  - WYNetworkCore (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ModelProtocol
+    - Result
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  WYNetworkCore:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: bfbc4c2fe5909b1d94fb4ef2277c6b3727ef5dae
+  ModelProtocol: e7be7d227c0ff494fcfef75a616af637f0f81f4b
+  Result: ed341d2f236af425b803e690e9bd8fd0a0cb7c5a
+  RxCocoa: 5c51f02d562cbd94629f6c26cf0c80fe4ab8d343
+  RxRelay: 483e1a19fad961b41f0b0c0bee506f46c1ae14fe
+  RxSwift: a834e5c538e89eca0cae86f403f4fbf0336786ce
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+  WYNetworkCore: daeedeb6ce4467ed5cb194a75c7662cfad49979f
+
+PODFILE CHECKSUM: 9f9f3104dc48aa16d10977a058c500c86bfc08d9
+
+COCOAPODS: 1.10.1
