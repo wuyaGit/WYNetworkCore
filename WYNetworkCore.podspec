@@ -36,7 +36,7 @@ Pod::Spec.new do |spec|
 
   spec.ios.deployment_target = "10.0"
 
-  spec.source_files  = "WYNetworkCore", "WYNetworkCore/**/*.{h,m}"
+  spec.source_files  = "WYNetworkCore", "WYNetworkCore/**/*.{h,swift}"
   spec.resource_bundles = {
       'WYNetworkCore' => ['WYNetworkCore/**/*.{xcassets,storyboard}']
   }
